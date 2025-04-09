@@ -1,17 +1,19 @@
-<div align="center">
-  <img src="https://img.shields.io/github/last-commit/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
-  <img src="https:://img.shields.io/badge/neovim/neovim?style=for-the-badge">
-  <img src="https://img.shields.io/youtube/channel/subscribers/UC16_9pPx4i9oh1aNZVl5eQQ?style=for-the-badge">
-  <img src="https://img.shields.io/github/watchers/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
-  <img src="https://img.shields.io/github/followers/AndroidGeeksYT?style=for-the-badge">
-  <img src="https://img.shields.io/reddit/user-karma/combined/AndroidGeeksYT?style=for-the-badge">
-  <a href=https://t.me/AndroidGeeksFileSharing><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">
-</div>
+<section>
+   <div align="center">
+     <img src="https://img.shields.io/github/last-commit/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
+     <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
+     <img src="https://img.shields.io/github/license/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
+     <img src="https://img.shields.io/github/stars/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
+     <img src="https://img.shields.io/github/forks/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
+     <img src="https://img.shields.io/github/issues/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
+     <img src="https:://img.shields.io/badge/neovim/neovim?style=for-the-badge">
+     <img src="https://img.shields.io/youtube/channel/subscribers/UC16_9pPx4i9oh1aNZVl5eQQ?style=for-the-badge">
+     <img src="https://img.shields.io/github/watchers/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
+     <img src="https://img.shields.io/github/followers/AndroidGeeksYT?style=for-the-badge">
+     <img src="https://img.shields.io/reddit/user-karma/combined/AndroidGeeksYT?style=for-the-badge">
+     <a href=https://t.me/AndroidGeeksFileSharing><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">
+   </div>
+</section>
 
 # Getting Started
 
