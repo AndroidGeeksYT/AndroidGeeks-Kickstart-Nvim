@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/youtube/channel/subscribers/UC16_9pPx4i9oh1aNZVl5eQQ?style=for-the-badge">
   <img src="https://img.shields.io/github/watchers/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
   <img src="https://img.shields.io/github/followers/AndroidGeeksYT?style=for-the-badge">
+  <img src="https://img.shields.io/reddit/user-karma/combined/AndroidGeeksYT?style=for-the-badge">
   <a href=https://t.me/AndroidGeeksFileSharing><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">
 </div>
 
