@@ -1,7 +1,6 @@
 <div align="center">
-![GitHub Repo stars](https://img.shields.io/github/stars/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge)
-
-    <img src="https://img.shields.io/github/last-commit/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge&logo=github&color=7dc4e4&logoColor=D9E0EE&labelColor=302D41">
+  <img src="https://img.shields.io/github/stars/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge")
+  <img src="https://img.shields.io/github/last-commit/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
   <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
   <img src="https://img.shields.io/github/license/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
   <img src="https://img.shields.io/github/forks/AndroidGeeksYT/AndroidGeeksCodeEditor?color=teal&style=for-the-badge">
