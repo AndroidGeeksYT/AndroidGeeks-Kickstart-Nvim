@@ -5,6 +5,14 @@
 
   </div>
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Maintained%3F-No-red?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/adi1090x/termux-style?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/adi1090x/termux-style?style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/adi1090x/termux-style?color=teal&style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/adi1090x/termux-style?color=violet&style=for-the-badge">
+</div>
+
 # Getting Started
 
 Android Geeks Code Editor was build by me from scratch and from source. The main goal is to have a simple code editor that works like it should. Not overflowing it with features that we don't need on our day to day development work flow.
