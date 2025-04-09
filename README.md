@@ -52,6 +52,3 @@ The leader keymap is space. so press space on your keyboard followed by keymaps.
 - leader nt to open/close neotree
 - leader ntbf to open neotree buffer float
 - leader f to format code 
-
-# YT Channel for updates
-https://www.youtube.com/@androidgeeksofficial
