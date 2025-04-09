@@ -6,11 +6,11 @@
   </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Maintained%3F-No-red?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/adi1090x/termux-style?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/adi1090x/termux-style?style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/adi1090x/termux-style?color=teal&style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/adi1090x/termux-style?color=violet&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/adi1090x/AndroidGeeksCodeEditor?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/adi1090x/?AndroidGeeksCodeEditor?style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/adi1090x/?AndroidGeeksCodeEditor?color=teal&style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/adi1090x/AndroidGeeksCodeEditor??color=violet&style=for-the-badge">
 </div>
 
 # Getting Started
