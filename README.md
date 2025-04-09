@@ -3,14 +3,12 @@
 [![Neovim Minimum Version](https://img.shields.io/badge/Neovim-0.10-blueviolet.svg?style=flat-square&logo=Neovim&color=90E59A&logoColor=white)](https://github.com/neovim/neovim)
 [![Telegram](https://img.shields.io/badge/Telegram-blue.svg?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/AndroidGeeksFileSharing)
 
-  </div>
-
-<div align="center">
 <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
   <img src="https://img.shields.io/github/license/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
   <img src="https://img.shields.io/github/forks/AndroidGeeksYT/AndroidGeeksCodeEditor?color=teal&style=for-the-badge">
   <img src="https://img.shields.io/github/issues/AndroidGeeksYT/AndroidGeeksCodeEditor?color=violet&style=for-the-badge">
+<img src=""
 </div>
 
 # Getting Started
