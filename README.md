@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/github/stars/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
   <img src="https://img.shields.io/github/forks/AndroidGeeksYT/AndroidGeeksCodeEditor?color=teal&style=for-the-badge">
   <img src="https://img.shields.io/github/issues/AndroidGeeksYT/AndroidGeeksCodeEditor?color=violet&style=for-the-badge">
-<img src=""
+  <img src="https:://img.shields.io/badge/neovim/neovim?style=for-the-badge">
 </div>
 
 # Getting Started
