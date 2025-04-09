@@ -54,6 +54,6 @@ The leader keymap is space. so press space on your keyboard followed by keymaps.
 - leader ff to find files
 - leader lg to live grep
 - leader of to old files
-- leader nt to open/close neotree
-- leader ntbf to open neotree buffer float
+- leader t to open/close neotree
+- leader tf to open neotree buffer float
 - leader f to format code 
