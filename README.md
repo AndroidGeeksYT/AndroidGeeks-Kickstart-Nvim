@@ -7,10 +7,10 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/AndroidGeeksYT/?AndroidGeeksCodeEditor?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/AndroidGeeksYT/?AndroidGeeksCodeEditor?style=for-the-badge">
   <img src="https://img.shields.io/github/forks/AndroidGeeksYT/?AndroidGeeksCodeEditor?color=teal&style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/AndroidGeeksYT/AndroidGeeksCodeEditor??color=violet&style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/AndroidGeeksYT/?AndroidGeeksCodeEditor?color=violet&style=for-the-badge">
 </div>
 
 # Getting Started
