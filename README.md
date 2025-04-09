@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/github/issues/AndroidGeeksYT/AndroidGeeksCodeEditor?color=violet&style=for-the-badge">
   <img src="https:://img.shields.io/badge/neovim/neovim?style=for-the-badge">
   <a href=https://www.youtube.com/@androidgeeksofficial><img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white">
+  <a href=https://t.me/AndroidGeeksFileSharing><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">
 </div>
 
 # Getting Started
