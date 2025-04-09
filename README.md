@@ -1,14 +1,12 @@
 <div align="center">
- 
-[![Neovim Minimum Version](https://img.shields.io/badge/Neovim-0.10-blueviolet.svg?style=flat-square&logo=Neovim&color=90E59A&logoColor=white)](https://github.com/neovim/neovim)
-[![Telegram](https://img.shields.io/badge/Telegram-blue.svg?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/AndroidGeeksFileSharing)
-
-<img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
+  <img src="https://img.shields.io/github/last-commit/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge&logo=github&color=7dc4e4&logoColor=D9E0EE&labelColor=302D41">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
   <img src="https://img.shields.io/github/license/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/AndroidGeeksYT/AndroidGeeksCodeEditor?style=for-the-badge">
   <img src="https://img.shields.io/github/forks/AndroidGeeksYT/AndroidGeeksCodeEditor?color=teal&style=for-the-badge">
   <img src="https://img.shields.io/github/issues/AndroidGeeksYT/AndroidGeeksCodeEditor?color=violet&style=for-the-badge">
   <img src="https:://img.shields.io/badge/neovim/neovim?style=for-the-badge">
+  <a href=https://www.youtube.com/@androidgeeksofficial><img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white">
 </div>
 
 # Getting Started
