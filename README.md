@@ -17,7 +17,7 @@
 
 # Getting Started
 
-Android Geeks Code Editor was build by me from scratch and from source. The main goal is to have a simple code editor that works like it should. Not overflowing it with features that we don't need on our day to day development work flow.
+A simple neovim configuration that works like it should. Made Easy to configure base on your Development Work Flow.
 
 # Installation
 
