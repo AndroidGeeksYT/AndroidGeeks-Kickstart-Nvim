@@ -57,3 +57,4 @@ The leader keymap is space. so press space on your keyboard followed by keymaps.
 - leader t to open/close neotree
 - leader tf to open neotree buffer float
 - leader f to format code 
+- press tab to switch buffer tabs

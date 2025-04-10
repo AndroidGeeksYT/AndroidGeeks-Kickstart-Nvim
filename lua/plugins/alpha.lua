@@ -20,7 +20,7 @@ return {
          ╚██████╔╝███████╗███████╗██║  ██╗███████║         
           ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝         
 
-                     [Code Editor RC3]
+                     [Code Editor RC4]
 		   ]]
 
 		dashboard.section.header.val = vim.split(logo, "\n")
