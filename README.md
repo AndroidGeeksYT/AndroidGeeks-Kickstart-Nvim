@@ -22,16 +22,19 @@ Android Geeks Code Editor was build by me from scratch and from source. The main
 # Installation
 
 First step :
+
 ```
 pkg update && pkg upgrade -y
 ```
 
 Second step :
+
 ```
 pkg i neovim git wget ripgrep nodejs clang python lua-language-server stylua -y
 ```
 
 Installing Android Geeks Code Editor :
+
 ```
 git clone https://github.com/AndroidGeeksYT/AndroidGeeksCodeEditor.git ~/.config/nvim
 rm -rf ~/.config/nvim/.git
@@ -49,6 +52,7 @@ nvim
 - q - to quit/exit nvim
 
 # Keymaps
+
 The leader keymap is space. so press space on your keyboard followed by keymaps.
 
 - leader ff to find files
@@ -56,5 +60,9 @@ The leader keymap is space. so press space on your keyboard followed by keymaps.
 - leader of to old files
 - leader t to open/close neotree
 - leader tf to open neotree buffer float
-- leader f to format code 
+- leader f to format code
 - press tab to switch buffer tabs
+- shift tab to switch previous buffer tab
+- leader x to close buffer tab
+- leader n to open new buffer tab
+- leader s to save file
