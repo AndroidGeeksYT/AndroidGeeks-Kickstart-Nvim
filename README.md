@@ -14,7 +14,7 @@ Second step :
 pkg i neovim wget ripgrep nodejs clang python lua-language-server stylua -y
 ```
 
-Installing Android Geeks Code Editor :
+Installing Android Geeks :
 ```
 git clone https://github.com/AndroidGeeksYT/AndroidGeeksCodeEditor.git ~/.config/nvim
 

@@ -8,11 +8,8 @@ vim.keymap.set('n', '<leader>e', '<cmd>Ex<CR>')
 vim.keymap.set('n', '<leader>w', '<cmd>w<CR>')
 -- Quit / Exit Neovim
 vim.keymap.set('n', '<leader>q', '<cmd>q<CR>')
--- Force Quit
-vim.keymap.set('n', '<leader>fq', '<cmd>q!<CR>')
 -- Neo Tree
 vim.keymap.set('n', '<leader>t', '<cmd>Neotree toggle<CR>')
-
 -- Bufferline / Tabs
 vim.keymap.set('n', '<Tab>', '<cmd>bnext<CR>')
 vim.keymap.set('n', '<S-Tab>', '<cmd>bprevious<CR>')
