@@ -29,7 +29,7 @@ return {
     end,
     formatters_by_ft = {
       lua = { 'stylua' },
-      markdown = { 'mdformat' }, -- use mdformat for markdown
+      markdown = { 'prettier' },
       -- You can add more filetypes here if needed
     },
   },
