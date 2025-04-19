@@ -1,3 +1,10 @@
+<section>
+    <div>
+        <p>
+        </p>
+    </div>
+</section>
+
 # Getting Started
 
 A Simple Neovim Configuration that Works Like it Should. Made Easy to Re-configure based on your Developement Work Flow.
@@ -5,16 +12,19 @@ A Simple Neovim Configuration that Works Like it Should. Made Easy to Re-configu
 # Installation
 
 First step :
+
 ```
 pkg update && pkg upgrade -y
 ```
 
 Second step :
+
 ```
 pkg i neovim wget ripgrep nodejs clang python lua-language-server stylua -y
 ```
 
 Installing Android Geeks :
+
 ```
 git clone https://github.com/AndroidGeeksYT/AndroidGeeksCodeEditor.git ~/.config/nvim
 
@@ -33,4 +43,5 @@ nvim
 - q - to quit/exit nvim
 
 # Keymaps
+
 The leader keymap is space. So press space on your keyboard followed by keymaps.
