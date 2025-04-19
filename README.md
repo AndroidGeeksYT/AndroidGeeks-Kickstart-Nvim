@@ -1,6 +1,7 @@
-<section>
+<section align='center'>
     <div>
         <p>
+            <img src="https://img.shields.io/badge/Maintained%3F-YES-cyan?style=for-the-badge">
         </p>
     </div>
 </section>
