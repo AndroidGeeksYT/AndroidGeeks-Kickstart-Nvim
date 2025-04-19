@@ -1,0 +1,7 @@
+require("androidgeeks.mappings")
+require("androidgeeks.options")
+require("androidgeeks.opts")
+require("androidgeeks.ui")
+require("config.lazy")
+print("Welcome AndroidGeeks")
+print("USER :)")
