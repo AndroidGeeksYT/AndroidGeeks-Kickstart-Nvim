@@ -26,7 +26,7 @@ AG.run_current_file = function()
   elseif ft == 'rust' then
     cmd = 'cargo run'
   elseif ft == 'c' then
-    cmd = 'gcc ' .. file .. ' -lm -o temp && ./temp'
+    cmd = 'gcc ' .. file .. ' -lm -o main && ./main'
   elseif ft == 'cpp' then
     cmd = 'g++ ' .. file .. ' -o temp && ./temp'
   elseif ft == 'php' then

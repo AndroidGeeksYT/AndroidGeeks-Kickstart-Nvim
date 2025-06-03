@@ -78,6 +78,7 @@ Plugins and configurations will auto-install on the first launch! 🌟
 | n    | `<leader>e` | Netrw              |
 | n    | `<leader>n` | New Tab            |
 | n    | `<leader>q` | Exit / Quit Neovim |
+| n    | `<leader>r` | Run Code           |
 | n    | `<leader>w` | Save File          |
 | n    | `<leader>x` | Close Tab          |
 | n    | `<leader>tt`| Neo Tree           |
