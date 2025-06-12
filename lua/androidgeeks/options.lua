@@ -25,3 +25,4 @@ o.inccommand = 'split'
 o.cursorline = true
 o.scrolloff = 10
 o.wrap = false
+o.termguicolors = true

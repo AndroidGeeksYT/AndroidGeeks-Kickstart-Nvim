@@ -208,7 +208,7 @@ return {
       --
       -- somewhere in your lspconfig setup
       require('lspconfig').clangd.setup {
-        cmd = { 'clangd' }, -- use system clangd
+        cmd = { '/data/data/com.termux/files/usr/bin/clangd' }, -- use system clangd
         filetypes = { 'c', 'cpp', 'objc', 'objcpp' },
         root_dir = require('lspconfig.util').root_pattern('compile_commands.json', 'compile_flags.txt', '.git'),
       },
