@@ -40,9 +40,9 @@ return {
         },
 
         -- Markdown
-        formatting.prettier.with {
-          filetypes = { 'markdown' },
-        },
+        --formatting.prettier.with {
+        --  filetypes = { 'markdown' },
+        -- },
       },
       on_attach = function(client, bufnr)
         if client.supports_method 'textDocument/formatting' then
