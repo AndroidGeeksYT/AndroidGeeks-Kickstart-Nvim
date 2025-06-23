@@ -107,7 +107,7 @@ Plugins and configurations will auto-install on the first launch! 🌟
 ## Donate :
 
 <p>
-<img src="https://github.com/AndroidGeeksYT/AndroidGeeks-Kickstart-Nvim/blob/main/img/donate.png">
+<img src="https://github.com/AndroidGeeksYT/AndroidGeeks-Kickstart-Nvim/blob/main/img/donate.jpg">
 </p>
 
 ---
