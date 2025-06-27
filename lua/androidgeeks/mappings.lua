@@ -20,5 +20,5 @@ map('n', '<leader>d', '<cmd>Alpha<CR>', { desc = 'Dashboard', noremap = true, si
 
 -- Run code
 map('n', '<leader>r', function()
-  require('androidgeeks.term').run_current_file()
+  require('androidgeeks.androidgeeks_term').run_current_file()
 end, { desc = 'Run Code', noremap = true, silent = true })
