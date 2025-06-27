@@ -9,25 +9,48 @@ function AndroidGeeks.setup()
     vim.g.colors_name = 'androidgeeks'
 
     -- Define some colors
-    local colors = {
-        fg = '#f9f5d7',
-        bg = '#282828',
-        red = '#e46876',
-        yellow1 = '#FFFF00',
-        yellow = '#e6c384',
-        blue = '#7fb4ca',
-        magenta = '#957fb8',
-        cyan = '#7aa89f',
-        grey = '#727169',
+    local c = {
+        bg0 = '#282828',
+        bg1 = '#3c3836',
+        bg2 = '#504945',
+        fg0 = '#fbf1c7',
+        fg1 = '#ebdbb2',
+        red = '#cc241d',
+        green = '#98971a',
+        yellow = '#d79921',
+        blue = '#458588',
+        purple = '#b16286',
+        aqua = '#689d6a',
+        gray = '#928374',
     }
 
-    -- Apply highlights
-    vim.api.nvim_set_hl(0, 'Normal', { fg = colors.fg, bg = colors.bg })
-    vim.api.nvim_set_hl(0, 'Comment', { fg = colors.grey, italic = true })
-    vim.api.nvim_set_hl(0, 'Function', { fg = colors.blue })
-    vim.api.nvim_set_hl(0, 'Keyword', { fg = colors.red })
-    vim.api.nvim_set_hl(0, 'String', { fg = colors.yellow1 })
-    -- Add more highlights as needed
+    -- Core UI
+    vim.api.nvim_set_hl(0, 'Normal', { fg = c.fg0, bg = c.bg0 })
+    vim.api.nvim_set_hl(0, 'NormalFloat', { fg = c.fg0, bg = c.bg1 })
+    vim.api.nvim_set_hl(0, 'CursorLine', { bg = c.bg1 })
+    vim.api.nvim_set_hl(0, 'CursorColumn', { bg = c.bg1 })
+    vim.api.nvim_set_hl(0, 'LineNr', { fg = c.gray, bg = c.bg0 })
+    vim.api.nvim_set_hl(0, 'CursorLineNr', { fg = c.yellow, bold = true })
+    vim.api.nvim_set_hl(0, 'Comment', { fg = c.gray, italic = true })
+    vim.api.nvim_set_hl(0, 'Visual', { bg = c.bg2 })
+    vim.api.nvim_set_hl(0, 'EndOfBuffer', { fg = c.bg0, bg = c.bg0 })
+
+    -- Syntax
+    vim.api.nvim_set_hl(0, 'Identifier', { fg = c.blue })
+    vim.api.nvim_set_hl(0, 'Function', { fg = c.blue })
+    vim.api.nvim_set_hl(0, 'Statement', { fg = c.purple })
+    vim.api.nvim_set_hl(0, 'Keyword', { fg = c.red })
+    vim.api.nvim_set_hl(0, 'Conditional', { fg = c.red })
+    vim.api.nvim_set_hl(0, 'Repeat', { fg = c.red })
+    vim.api.nvim_set_hl(0, 'String', { fg = c.green })
+    vim.api.nvim_set_hl(0, 'Character', { fg = c.green })
+    vim.api.nvim_set_hl(0, 'Number', { fg = c.yellow })
+    vim.api.nvim_set_hl(0, 'Boolean', { fg = c.yellow })
+    vim.api.nvim_set_hl(0, 'Float', { fg = c.yellow })
+    vim.api.nvim_set_hl(0, 'Operator', { fg = c.aqua })
+    vim.api.nvim_set_hl(0, 'Type', { fg = c.yellow })
+    vim.api.nvim_set_hl(0, 'Special', { fg = c.aqua })
+    vim.api.nvim_set_hl(0, 'Todo', { fg = c.purple, bg = c.bg2, bold = true })
 
     -- Hide the end-of-buffer tildes
     vim.opt.fillchars:append { eob = ' ' } -- put a space instead of '~'
