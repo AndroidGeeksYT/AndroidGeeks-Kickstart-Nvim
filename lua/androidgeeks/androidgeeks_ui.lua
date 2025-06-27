@@ -59,6 +59,19 @@ function AndroidGeeks.setup()
     vim.api.nvim_set_hl(0, 'AlphaButtons', { fg = c.blue })
     vim.api.nvim_set_hl(0, 'AlphaFooter', { fg = c.gray, italic = true })
 
+    -- which-key colours
+    vim.api.nvim_set_hl(0, 'WhichKey', { fg = c.yellow, bold = true })
+    vim.api.nvim_set_hl(0, 'WhichKeyGroup', { fg = c.aqua })
+    vim.api.nvim_set_hl(0, 'WhichKeyDesc', { fg = c.purple })
+    vim.api.nvim_set_hl(0, 'WhichKeySeparator', { fg = c.gray })
+    vim.api.nvim_set_hl(0, 'WhichKeyBorder', { fg = c.yellow, bg = c.bg1 })
+    vim.api.nvim_set_hl(0, 'WhichKeyFloat', { bg = c.bg0 })
+    vim.api.nvim_set_hl(0, 'WhichKeyValue', { fg = c.yellow, italic = true })
+
+    local bg0 = '#282828'
+
+    vim.api.nvim_set_hl(0, 'NormalFloat', { bg = bg0 })
+
     -- Hide the end-of-buffer tildes
     vim.opt.fillchars:append { eob = ' ' } -- put a space instead of '~'
 
