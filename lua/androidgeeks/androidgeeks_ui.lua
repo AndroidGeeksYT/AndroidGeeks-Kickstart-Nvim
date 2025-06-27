@@ -17,7 +17,7 @@ function AndroidGeeks.setup()
         fg1 = '#ebdbb2',
         red = '#cc241d',
         green = '#98971a',
-        yellow = '#d79921',
+        yellow = '#FFFF00',
         blue = '#458588',
         purple = '#b16286',
         aqua = '#689d6a',
@@ -51,6 +51,13 @@ function AndroidGeeks.setup()
     vim.api.nvim_set_hl(0, 'Type', { fg = c.yellow })
     vim.api.nvim_set_hl(0, 'Special', { fg = c.aqua })
     vim.api.nvim_set_hl(0, 'Todo', { fg = c.purple, bg = c.bg2, bold = true })
+
+    -- Alpha dashboard colours
+    vim.api.nvim_set_hl(0, 'AlphaHeader', { fg = c.yellow, bold = true })
+    vim.api.nvim_set_hl(0, 'AlphaHeaderLabel', { fg = c.red, bold = true })
+    vim.api.nvim_set_hl(0, 'AlphaShortcut', { fg = c.aqua })
+    vim.api.nvim_set_hl(0, 'AlphaButtons', { fg = c.blue })
+    vim.api.nvim_set_hl(0, 'AlphaFooter', { fg = c.gray, italic = true })
 
     -- Hide the end-of-buffer tildes
     vim.opt.fillchars:append { eob = ' ' } -- put a space instead of '~'
