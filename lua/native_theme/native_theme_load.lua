@@ -1,10 +1,10 @@
-local M = {}
+local AndroidGeeks = {}
 
-function M.load()
+function AndroidGeeks.load()
     local bin = vim.fn.stdpath 'config' .. '/native-theme/androidgeeks'
     if vim.fn.filereadable(bin) == 0 then
         vim.notify('native theme binary not found → falling back to Lua theme', vim.log.levels.WARN)
-        vim.cmd('luafile ' .. vim.fn.stdpath 'config' .. '/lua/colors/androidgeeks.lua')
+        vim.cmd('luafile ' .. vim.fn.stdpath 'config' .. '/lua/androidgeeks/androidgeeks.lua')
         return
     end
 
@@ -21,4 +21,4 @@ function M.load()
     vim.g.colors_name = 'androidgeeks'
 end
 
-return M
+return AndroidGeeks
