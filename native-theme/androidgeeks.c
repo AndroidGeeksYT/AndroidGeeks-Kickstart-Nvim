@@ -26,7 +26,7 @@ int main(int argc, char **argv) {
 
   /* 3 ─ Core UI */
   puts("hi Normal       guifg=" FG0 " guibg=" BG0 " ctermfg=223 ctermbg=235");
-  puts("hi NormalFloat  guifg=" BG0 " guibg=" BG0);
+  puts("hi NormalFloat  guifg=" FG0 " guibg=" BG0 " ctermfg=223 ctermbg=235");
   puts("hi CursorLine              guibg=" BG1);
   puts("hi CursorColumn            guibg=" BG1);
   puts("hi Visual                  guibg=" BG2);
@@ -51,6 +51,17 @@ int main(int argc, char **argv) {
   puts("hi AlphaHeader  guifg=" YELL " gui=bold");
   puts("hi WhichKeyFloat           guibg=" BG0);
   puts("hi WhichKeyBorder guifg=" YELL " guibg=" BG0);
+
+  /* 6 ─ neo‑tree */
+  puts("hi NeoTreeNormal      guifg=" FG0 " guibg=" BG0);
+  puts("hi NeoTreeNormalNC    guifg=" FG0 " guibg=" BG0);
+  puts("hi NeoTreeFolderName  guifg=" BLUE);
+  puts("hi NeoTreeDirectoryIcon guifg=" BLUE);
+  puts("hi NeoTreeIndentMarker guifg=" BG2);
+  puts("hi NeoTreeGitAdded    guifg=" GREEN);
+  puts("hi NeoTreeGitModified guifg=" YELL);
+  puts("hi NeoTreeGitDeleted  guifg=" RED);
+  puts("hi NeoTreeFloatBorder guifg=" YELL " guibg=" BG0);
 
   if (argc == 2 && strcmp(argv[1], "--whichkey") == 0) {
     puts("hi WhichKeyFloat  guibg=" BG0);
