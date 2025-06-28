@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /* Gruvbox‑dark palette (hard) */
 #define BG0 "#282828"
@@ -13,16 +14,19 @@
 #define PURP "#b16286"
 #define AQUA "#689d6a"
 
-int main(void) {
+int main(int argc, char **argv) {
   /* 0 ─ Base setup */
   puts("highlight clear");
   puts("syntax reset");
   puts("set background=dark");
   puts("let g:colors_name='androidgeeks'");
 
-  /* 1 ─ Core UI */
+  /* 2 - Float defaults */
+  puts("hi FloatBorder  guifg=" BG1 " guibg=" BG0); /* border line */
+
+  /* 3 ─ Core UI */
   puts("hi Normal       guifg=" FG0 " guibg=" BG0 " ctermfg=223 ctermbg=235");
-  puts("hi NormalFloat  guifg=" FG0 " guibg=" BG1);
+  puts("hi NormalFloat  guifg=" BG0 " guibg=" BG0);
   puts("hi CursorLine              guibg=" BG1);
   puts("hi CursorColumn            guibg=" BG1);
   puts("hi Visual                  guibg=" BG2);
@@ -31,7 +35,7 @@ int main(void) {
   puts("hi EndOfBuffer  guifg=" BG0 " guibg=" BG0 " ctermfg=235 ctermbg=235");
   puts("set fillchars=eob:\\ ");
 
-  /* 2 ─ Syntax */
+  /* 4 ─ Syntax */
   puts("hi Comment      guifg=" GRAY " gui=italic");
   puts("hi Keyword      guifg=" RED);
   puts("hi Statement    guifg=" PURP);
@@ -43,10 +47,15 @@ int main(void) {
   puts("hi Type         guifg=" YELL);
   puts("hi Special      guifg=" AQUA);
 
-  /* 3 ─ Plugin tweaks */
+  /* 5 ─ Plugin tweaks */
   puts("hi AlphaHeader  guifg=" YELL " gui=bold");
   puts("hi WhichKeyFloat           guibg=" BG0);
-  puts("hi WhichKeyBorder guifg=" BG1 " guibg=" BG0);
+  puts("hi WhichKeyBorder guifg=" YELL " guibg=" BG0);
+
+  if (argc == 2 && strcmp(argv[1], "--whichkey") == 0) {
+    puts("hi WhichKeyFloat  guibg=" BG0);
+    puts("hi WhichKeyBorder guifg=" YELL " guibg=" BG0);
+  }
 
   return 0;
 }
