@@ -27,13 +27,13 @@ return { -- Useful plugin to show you pending keybinds.
             },
         },
 
-        window = {
-            border = 'none', -- or "single"
-            position = 'bottom', -- ⬅️ default
-            margin = { 1, 0, 1, 0 }, -- {top, right, bottom, left}
-            padding = { 1, 2, 1, 2 },
-            winblend = 0,
-        },
+        -- window = {
+        --   border = 'none', -- or "single"
+        --  position = 'bottom', -- ⬅️ default
+        --  margin = { 1, 0, 1, 0 }, -- {top, right, bottom, left}
+        --  padding = { 1, 2, 1, 2 },
+        -- winblend = 0,
+        -- },
 
         -- Document existing key chains
         spec = {},

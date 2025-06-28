@@ -3,4 +3,4 @@ require 'androidgeeks.options'
 require 'androidgeeks.opts'
 require 'androidgeeks.ui'
 require 'config.lazy'
-require 'androidgeeks.androidgeeks_ui'
+require('native_theme.native_theme_load').load()
