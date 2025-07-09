@@ -81,7 +81,7 @@ Plugins and configurations will auto-install on the first launch! 🌟
 | n    | `<leader>r` | Run Code           |
 | n    | `<leader>w` | Save File          |
 | n    | `<leader>x` | Close Tab          |
-| n    | `<leader>e` | Format Code        |
+| n    | `<leader>f` | Format Code        |
 
 > Leader is space. Press space on your keyboard!!!
 
