@@ -217,7 +217,7 @@ return {
 			-- ts_ls = {},
 			--
 			require("lspconfig").clangd.setup({
-				cmd = { "/data/data/com.termux/files/usr/bin/clangd" }, -- omit if clangd is on $PATH
+				cmd = { "/data/data/com.termux/files/usr/bin/clangd", "--header-insertion=never" }, -- omit if clangd is on $PATH
 				-- optional ergonomic flags:
 				-- cmd = { "/usr/local/bin/clangd",
 				--         "--background-index", "--clang-tidy",
