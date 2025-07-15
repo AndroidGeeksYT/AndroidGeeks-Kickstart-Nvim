@@ -85,15 +85,6 @@ Plugins and configurations will auto-install on the first launch! 🌟
 
 > Leader is space. Press space on your keyboard!!!
 
-## ⌨️ NVIM-CMP Key Mappings
-
-| Mode | Mapping     | Action             |
-| :--- | :---------- | :----------------- |
-| n    | `<Tab>`     | Next               |
-| n    | `<S-Tab>`   | Previous           |
-| n    | `<Enter>`   | Confirm Selection  |
-| n    | `<C-Space>` | Complete Mapping   |
-
 ## ⌨️ Bufferline / Tabs Key Mappings
 
 | Mode | Mapping     | Action             |
