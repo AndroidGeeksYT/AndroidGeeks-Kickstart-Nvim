@@ -210,7 +210,7 @@ return {
       -- ts_ls = {},
       --
       require("lspconfig").clangd.setup {
-        cmd = { "/usr/bin/clangd" },
+        cmd = { "/data/data/com.termux/files/usr/bin/clangd" },
         -- optional ergonomic flags:
         -- cmd = { "/usr/local/bin/clangd",
         --         "--background-index", "--clang-tidy",
